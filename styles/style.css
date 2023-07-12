@@ -1,0 +1,376 @@
+/* Author: Hassan (WEB8-1908) */
+
+/* Universal styles */
+* {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  color: rgba(39, 39, 39, 1);
+}
+
+/* Common styles */
+.primary-contents-width {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.primary-btn {
+  padding: 15px 36px;
+  background: #E55473;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+}
+
+span {
+  color: rgba(229, 84, 115, 1);
+}
+
+/* Header part starts */
+.header-part {
+  height: 80vh;
+  background: rgba(229, 84, 115, 0.10);
+}
+
+.all-header-contents {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+}
+
+.header-texts {
+  padding-top: 10vh;
+  flex: 70%;
+  text-align: left;
+  padding-bottom: 10vh;
+}
+
+.header-texts h1 {
+  font-weight: 900;
+  font-size: 55px;
+  padding-bottom: 13px;
+}
+
+.header-texts p {
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 13px;
+}
+
+.header-image {
+  flex: 30%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Header part ends */
+
+/* Section-1 Featured flowers style starts */
+.featured-flower-sect {
+  height: 100vh;
+  padding-top: 15vh;
+  text-align: center;
+  /* background-color: red; */
+}
+
+.featured-flower-sect h2 {
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 11px;
+}
+
+.featured-flower-sect p {
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 35px;
+}
+
+.featured-container {
+  display: flex;
+  justify-content: space-between;
+  height: 55vh;
+  gap: 20px;
+}
+
+.featured-image {
+  flex: 25%;
+  width: 40px;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 300px 300px 0px 0px;
+  padding: 50px 50px 0 50px;
+}
+
+.first-featured-image {
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.second-featured-image {
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.third-featured-image {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.featured-flower-title {
+  padding-top: 13vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.featured-flower-title p {
+  font-weight: 800;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+/* Section-1 Featured flowers style ends */
+
+/* Section-2 24/7 supports banner style starts */
+
+.supprot-section-container {
+  display: flex;
+  justify-content: space-around;
+  height: 40vh;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 0 70px;
+  margin-bottom: 10vh;
+}
+
+.supprot-section-container img {
+  width: 50px;
+  padding-bottom: 10px;
+}
+
+.supprot-section-container p {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* Section-2 24/7 supports banner style ends */
+
+/* Section-3 Hot deal section style starts*/
+.hot-deal-section {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  height: 70vh;
+  text-align: center;
+}
+
+.hot-deal-contents {
+  padding-top: 8vh;
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+  align-items: center;
+}
+
+.hot-deal-contents h2 {
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 11px;
+}
+
+.hot-deal-contents p {
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 13px;
+}
+
+.hot-deal-image {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Section-3 Hot deal section style ends */
+
+/* Section-4 Instagram section style starts */
+
+.instagram-sect {
+  height: 75vh;
+  text-align: center;
+  padding-top: 15vh;
+}
+
+.instagram-sect h2 {
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 11px;
+}
+
+.instagram-sect p {
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 35px;
+}
+
+.insta-container {
+  display: flex;
+  justify-content: space-between;
+  height: 45vh;
+}
+
+.insta-image-1,
+.insta-image-2,
+.insta-image-3,
+.insta-image-4 {
+  flex: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Section-4 Instagram section style ends */
+
+/*  The BONUS PART - Customer Review Section Style Starts */
+
+.customer-review-head {
+  text-align: center;
+  color: greenyellow;
+  background-color: #E55473;
+  font-weight: 900;
+  font-size: 45px;
+  padding: 15px;
+  border: none;
+}
+
+.customer-review-sec {
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.customer-review-part {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 120px;
+  margin-right: 120px;
+  border: 1px solid goldenrod;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px rgb(255, 246, 196, 3);
+}
+
+.customer-review-part h2 {
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.customer-review-part p {
+  font-weight: 400;
+  font-size: 17px;
+  padding-bottom: 35px;
+  font-stretch: expanded;
+}
+
+.customer-review-part small {
+  font-stretch: semi-expanded;
+  font-weight: 400;
+  font-size: 9px;
+}
+
+.indicator-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.pro-img {
+  width: 70px;
+  border-top: 1px solid green;
+  padding-top: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+/*  The BONUS PART - Customer Review Section Style Ends */
+
+/* Section-5 Get Latest Deal section style starts */
+.get-latest-deal-sec {
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.get-deal-active-part {
+  border-radius: 8px;
+  background-image: url('../images/get-deal-bg.png');
+  background-color: lightgray;
+  background-size: cover;
+  height: 55vh;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.get-deal-active-part h2 {
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 11px;
+}
+
+.get-deal-active-part p {
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 35px;
+}
+
+.get-deal-active-part input {
+  width: 450px;
+  padding-left: 15px;
+  margin-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #FFF;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Section-5 Get Latest Deal section style ends */
+
+/* Footer style starts */
+.footer-part {
+  height: 60vh;
+  background-color: #111010;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-part h1 {
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.footer-part p {
+  font-weight: 400;
+  font-size: 11px;
+  padding-bottom: 35px;
+  color: rgba(255, 255, 255, 0.9);
+  font-stretch: semi-expanded;
+}
+
+.footer-part small {
+  font-stretch: semi-expanded;
+  font-weight: 400;
+  font-size: 9px;
+  color: rgba(255, 255, 255, 0.4)
+}
+
+/* Footer style ends */
