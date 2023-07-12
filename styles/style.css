@@ -228,58 +228,6 @@ span {
 
 /* Section-4 Instagram section style ends */
 
-/*  The BONUS PART - Customer Review Section Style Starts */
-
-.customer-review-head {
-  text-align: center;
-  color: greenyellow;
-  background-color: #E55473;
-  font-weight: 900;
-  font-size: 45px;
-  padding: 15px;
-  border: none;
-}
-
-.customer-review-sec {
-  height: 70vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.customer-review-part {
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-left: 120px;
-  margin-right: 120px;
-  border: 1px solid goldenrod;
-  border-radius: 8px;
-  box-shadow: 5px 5px 15px rgb(255, 246, 196, 3);
-}
-
-.customer-review-part h2 {
-  font-weight: 800;
-  font-size: 30px;
-  padding-bottom: 20px;
-}
-
-.customer-review-part p {
-  font-weight: 400;
-  font-size: 17px;
-  padding-bottom: 35px;
-  font-stretch: expanded;
-}
-
-.customer-review-part small {
-  font-stretch: semi-expanded;
-  font-weight: 400;
-  font-size: 9px;
-}
-
 .indicator-icon {
   width: 40px;
   height: 40px;
